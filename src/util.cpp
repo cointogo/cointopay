@@ -537,7 +537,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
             strHeader += rpc_user;
             strHeader += "\nrpcpassword=";
             strHeader += rpc_passwd;
-            strHeader += "\naddnode=seed1.cointopay.io\naddnode=seed2.cointopay.io\naddnode=seed3.cointopay.io\n";
+            strHeader += "\naddnode=hardseed1.cointopay.io\naddnode=hardseed2.cointopay.io\naddnode=hardseed3.cointopay.io\n";
             strHeader += "txindex=1\ncointopaystake=1\n";
             fwrite(strHeader.c_str(), std::strlen(strHeader.c_str()), 1, configFile);
             fclose(configFile);
