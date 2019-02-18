@@ -1,0 +1,26 @@
+[Unit]
+Description=2PAY's distributed currency daemon
+After=network.target
+
+[Service]
+User=cointopay
+Group=cointopay
+
+Type=forking
+PIDFile=/var/lib/cointopayd/cointopayd.pid
+
+ExecStart=/usr/bin/cointopayd -daemon -pid=/var/lib/cointopayd/cointopayd.pid \
+          -conf=/etc/cointopay/cointopay.conf -datadir=/var/lib/cointopayd
+
+ExecStop=-/usr/bin/cointopay-cli -conf=/etc/cointopay/cointopay.conf \
+         -datadir=/var/lib/cointopayd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

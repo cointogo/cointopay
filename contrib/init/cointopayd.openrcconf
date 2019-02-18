@@ -1,0 +1,26 @@
+# /etc/conf.d/cointopayd: config file for /etc/init.d/cointopayd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/cointopay/cointopay.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/cointopayd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/cointopayd.pid"
+
+# Where to write cointopayd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/cointopayd"
+
+# User and group to own cointopayd process
+#BITCOIND_USER="cointopay"
+#BITCOIND_GROUP="cointopay"
+
+# Path to cointopayd executable
+#BITCOIND_BIN="/usr/bin/cointopayd"
+
+# Nice value to run cointopayd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

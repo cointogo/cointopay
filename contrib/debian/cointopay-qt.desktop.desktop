@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=2PAY
+Comment=2PAY P2P Cryptocurrency
+Exec=cointopay-qt %u
+Terminal=false
+Type=Application
+Icon=cointopay128
+MimeType=x-scheme-handler/cointopay;
+Categories=Office;Finance;
+Name[en_US]=cointopay-qt.desktop

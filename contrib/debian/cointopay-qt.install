@@ -1,0 +1,6 @@
+usr/local/bin/cointopay-qt usr/bin
+share/pixmaps/bitcoin32.xpm usr/share/pixmaps
+share/pixmaps/bitcoin16.xpm usr/share/pixmaps
+share/pixmaps/bitcoin128.png usr/share/pixmaps
+debian/cointopay-qt.desktop usr/share/applications
+debian/cointopay-qt.protocol usr/share/kde4/services/
