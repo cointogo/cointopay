@@ -3,7 +3,7 @@
 
 https://cointopay.io
 
-Explorer: https://explorer.cointopay.io
+Explorer: http://explorer.cointopay.io
 
 What is 2PAY?
 --------------
