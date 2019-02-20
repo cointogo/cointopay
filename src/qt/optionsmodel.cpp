@@ -77,8 +77,8 @@ void OptionsModel::Init()
     fHideZeroBalances = settings.value("fHideZeroBalances").toBool();
 
     if (!settings.contains("fCoinControlFeatures"))
-        settings.setValue("fCoinControlFeatures", false);
-    fCoinControlFeatures = settings.value("fCoinControlFeatures", false).toBool();
+        settings.setValue("fCoinControlFeatures",false);
+    fCoinControlFeatures = settings.value("fCoinControlFeatures").toBool();
 
     if (!settings.contains("fZeromintEnable"))
         settings.setValue("fZeromintEnable", false);
