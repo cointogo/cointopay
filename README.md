@@ -1,21 +1,31 @@
-2PAY Core integration/staging tree
+CoinToPay (2PAY)
 ===================================
 
-https://cointopay.io
+Website: https://cointopay.io
 
-Explorer: http://explorer.cointopay.io
+Explorer: https://explorer.cointopay.io
 
-What is 2PAY?
+What is CoinToPay?
 --------------
 
-2PAY is an experimental new digital currency that enables instant payments to
-anyone, anywhere in the world. 2PAY uses peer-to-peer technology to operate
-with no central authority: managing transactions and issuing money are carried
-out collectively by the network. 2PAY Core is the name of open source
-software which enables the use of this currency.
+CoinToPay is an innovative payment network and a new kind of money with the focus to be usable for all.
 
 For more information, as well as an immediately useable, binary version of
 the 2PAY Core software, see https://cointopay.io
+
+
+Why CoinToPay?
+--------------
+
+The main focus at 2PAY lies in the security and ease of use from the coin. Many cryptocurrencies are technically difficult to handle and therefore not interesting for the mass-market. Our goal is to simplify the usage process that it is easy for anyone to own and use 2PAY's. We work hard to ensure the highest standards of security for the Coin and its users. To guarantee the highest standards we work with technologies like Masternode and POS. 
+
+We developed a unique reward system were masternodes can be registered and take advantage from the special reward. 
+
+
+How does our unique Reward-System works?
+--------------
+
+We have a unique Reward System. We offer the first 150 registerd Masternodes a special reward. The special reward is +25% per Block. The +25% reward from each Block will be sent automatically to a central Wallet. From the central Wallet our System will send out the coins continuously to the registered Masternodes. The sum of the +25% 2PAYs, which are on the central wallet, will be divided between the registered Masternodes. Please fill out our Special Reward form and take advantage from the Reward System.
 
 License
 -------
@@ -42,24 +52,6 @@ The `master` branch is regularly built and tested, but is not guaranteed to be
 completely stable. [Tags](https://github.com/smartinsider/cointopay/tags) are created
 regularly to indicate new official, stable release versions of 2PAY.
 
-Testing
--------
-
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test on short notice. Please be patient and help out by testing
-other people's pull requests, and remember this is a security-critical project where any mistake might cost people
-lots of money.
-
-### Automated Testing
-
-Developers are strongly encouraged to write unit tests for new code, and to
-submit new unit tests for old code. Unit tests can be compiled and run (assuming they weren't disabled in configure) with: `make check`
-
-
-### Manual Quality Assurance (QA) Testing
-
-Large changes should have a test plan, and should be tested by somebody other
-than the developer who wrote the code.
 
 Development tips and tricks
 ---------------------------
